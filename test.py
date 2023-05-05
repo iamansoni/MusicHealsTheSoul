@@ -1,7 +1,7 @@
 import cv2
 
 def take_input():
-    video = cv2.VideoCapture(-1) 
+    video = cv2.VideoCapture(0) 
 
     while True:
         check, frame = video.read()
